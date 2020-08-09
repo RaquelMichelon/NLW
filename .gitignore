@@ -1,0 +1,4 @@
+# persistência do banco de dados
+/.DS_Store
+# pacotes node
+/node_modules/
