@@ -1,4 +1,4 @@
-# persistência do banco de dados
+# database persistence
 /.DS_Store
-# pacotes node
+# node packages
 /node_modules/
