@@ -5,7 +5,8 @@ const {
     pageLanding,
     pageStudy,
     pageGiveClasses,
-    saveClasses
+    saveClasses,
+    pageSuccess
 } = require('./pages')
 
 const nunjucks = require('nunjucks')
@@ -21,4 +22,5 @@ server
 .get("/study", pageStudy)
 .get("/give-classes", pageGiveClasses)
 .post("/save-classes", saveClasses)
+.get("/success", pageSuccess)
 .listen(5500)   

@@ -1,4 +1,5 @@
 # database persistence
-/.DS_Store
+.DS_Store
+*/**/.DS_Store
 # node packages
 /node_modules/
